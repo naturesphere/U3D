@@ -201,32 +201,23 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Scripts\BallParticle.cs" />
-    <Compile Include="Assets\Scripts\BodyCollider.cs" />
-    <Compile Include="Assets\Scripts\CameraPath\CameraAnim.cs" />
-    <Compile Include="Assets\Scripts\CameraPath\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\CameraPath\ShowFPS.cs" />
-    <Compile Include="Assets\Scripts\CastPlayer.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CheckBoard.cs" />
+    <Compile Include="Assets\Scripts\CreatScorePlane.cs" />
+    <Compile Include="Assets\Scripts\CreatScorePlayer.cs" />
     <Compile Include="Assets\Scripts\CreateScoreGoal.cs" />
     <Compile Include="Assets\Scripts\CreateScoreOther.cs" />
-    <Compile Include="Assets\Scripts\CreateScorePlane.cs" />
-    <Compile Include="Assets\Scripts\CreateScorePlayer.cs" />
     <Compile Include="Assets\Scripts\DongHua.cs" />
     <Compile Include="Assets\Scripts\DoorframeSound.cs" />
     <Compile Include="Assets\Scripts\FlashManager.cs" />
-    <Compile Include="Assets\Scripts\GameUI.cs" />
     <Compile Include="Assets\Scripts\GoalBoard.cs" />
     <Compile Include="Assets\Scripts\Logicer.cs" />
     <Compile Include="Assets\Scripts\MoveLight.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\Reseter.cs" />
     <Compile Include="Assets\Scripts\ScorePlane.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
     <Compile Include="Assets\Scripts\Staticer.cs" />
-    <Compile Include="Assets\Scripts\Test.cs" />
     <Compile Include="Assets\Scripts\TipPlane.cs" />
-    <Compile Include="Assets\Scripts\UIListener.cs" />
-    <Compile Include="Assets\Scripts\UIPauseListener.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
