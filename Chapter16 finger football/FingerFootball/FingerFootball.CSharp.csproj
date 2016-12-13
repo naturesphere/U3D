@@ -218,6 +218,7 @@
     <Compile Include="Assets\Scripts\Shoot.cs" />
     <Compile Include="Assets\Scripts\Staticer.cs" />
     <Compile Include="Assets\Scripts\TipPlane.cs" />
+    <Compile Include="Assets\Scripts\UIListener.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />

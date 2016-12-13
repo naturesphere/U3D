@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tank War.CSharp.Plugins", "Tank War.CSharp.Plugins.csproj", "{EE0AABFF-302B-1D01-12A3-2F380A3EF5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tank War.CSharp", "Tank War.CSharp.csproj", "{49E9BFC2-28BE-8440-06D8-5D2509D458ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tank War.CSharp.Editor", "Tank War.CSharp.Editor.csproj", "{E322C6C7-D5C5-C1AF-C85B-C6945B0D9DC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0AABFF-302B-1D01-12A3-2F380A3EF5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0AABFF-302B-1D01-12A3-2F380A3EF5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0AABFF-302B-1D01-12A3-2F380A3EF5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0AABFF-302B-1D01-12A3-2F380A3EF5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E9BFC2-28BE-8440-06D8-5D2509D458ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E9BFC2-28BE-8440-06D8-5D2509D458ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E9BFC2-28BE-8440-06D8-5D2509D458ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E9BFC2-28BE-8440-06D8-5D2509D458ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E322C6C7-D5C5-C1AF-C85B-C6945B0D9DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E322C6C7-D5C5-C1AF-C85B-C6945B0D9DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E322C6C7-D5C5-C1AF-C85B-C6945B0D9DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E322C6C7-D5C5-C1AF-C85B-C6945B0D9DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

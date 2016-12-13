@@ -10,6 +10,7 @@ public class Shoot : MonoBehaviour
     public GameObject soccerball;
     public GameObject MyCamera;
     public GameObject ballParticle;
+    public GameObject particle;
     private float resettime = 0;
     private bool resetflag = false;
     public GameObject goalie;
@@ -36,10 +37,10 @@ public class Shoot : MonoBehaviour
         starY = 0;
         resetflag = false;
         touchtime = 0;
-        ballpos = new Vector2(GetComponent<Camera>().worldtoviewportPoint(soccerball.transform.position).x * 
-            Screen.width, GetComponent<Camera>().WorldToViewPortPoint(soccerball.transform.position).y * Screen.height);
+        ballpos = new Vector2(GetComponent<Camera>().WorldToViewportPoint(soccerball.transform.position).x * 
+            Screen.width, GetComponent<Camera>().WorldToViewportPoint(soccerball.transform.position).y * Screen.height);
         shootflag = false;
-        staticer.animationString = null;
+        Staticer.animationString = null;
         BoxCollider b = goalie.GetComponentInChildren<BoxCollider>();
         b.size = new Vector3(0.2f, 0.1f, 0.1f);
         touchtimes = 0;
@@ -62,7 +63,7 @@ public class Shoot : MonoBehaviour
         }
 
         if (particle != null)
-            Particle.transform.position = soccerball.transform.position;
+            particle.transform.position = soccerball.transform.position;
 
         foreach (Touch t in Input.touches)
         {
@@ -122,7 +123,7 @@ public class Shoot : MonoBehaviour
                             cf.enabled = true;
 
                             BallParticle.ball = soccerball;//粒子
-                            Particle = Instantiate(ballParticle, soccerball.transform.position, soccerball.transform.rotation) as GameObject;
+                            particle = Instantiate(ballParticle, soccerball.transform.position, soccerball.transform.rotation) as GameObject;
                         }
                     }
                 }
